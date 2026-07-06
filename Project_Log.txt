@@ -1,0 +1,85 @@
+============================================================
+PROJECT LOG: In Silico Epitope Mapping of Lassa Virus GPC
+============================================================
+Objective: To identify potential T-cell and B-cell epitopes for vaccine development.
+Mentor: Prof. Naga Rajiv Lakkaniga (IIT ISM Dhanbad)
+Researcher: Shristy Sinha
+Date Started: July 1, 2026
+
+------------------------------------------------------------
+PHASE 1: SEQUENCE RETRIEVAL
+------------------------------------------------------------
+Target: Lassa virus glycoprotein precursor (GPC)
+Method: NCBI Protein Database (RefSeq filtered)
+
+PHASE 1: SEQUENCE RETRIEVAL
+Target: Lassa virus glycoprotein precursor (GPC)
+Accession IDs: AVN98155.1, SCA79105.1, AMR44577.1, UTE79776.1, USR47364.1
+-----------------------------------------------------------
+-PHASE 2: EPITOPE PREDICTION (COMPLETE)
+------------------------------------------------------------
+
+Tool: NetMHCpan 4.1 EL
+Data: Results generated for 5 GPC sequences against frequently occurring human HLA alleles.
+Observation: Identified numerous peptides with high binding affinity (percentile rank ≤ 0.5).
+Next Steps: Filtering and selection of top "promiscuous" candidates for downstream analysis (Antigenicity/Allergenicity).
+
+​------------------------------------------------------------
+Phase 3: Antigenicity Validation
+------------------------------------------------------------
+
+​Date: 2026-07-02
+​Tool: VaxiJen v2.0
+​Method: Sequences (\le 0.5 percentile rank) were analyzed for antigenicity using the "Virus" model with a threshold of 0.4.
+​Result: The collective sequence input yielded a score of 0.4741 (Probable Antigen). Further analysis will be performed to extract individual peptide scores for ranking.
+------------------------------------------------------------
+Phase 3  Update : Completed data consolidation and cleaning for the Antigenicity Validation results.
+------------------------------------------------------------
+
+Date: 2026-07-03
+​Activity: Successfully organized 330 peptide sequences into a structured format, including Peptide ID, sequence, antigenicity score, and prediction.
+​Status: Finalized Peptide_Analysis_Final_Report.xlsx.
+
+------------------------------------------------------------
+Phase 4: Safety & Pharmacokinetic Profiling
+------------------------------------------------------------
+
+Date: 2026-07-05
+Tool: ToxinPred / AllerTOP
+Method: Threshold-based filtering to assess non-toxic and non-allergenic properties of top-ranked epitopes.
+Result: Successfully filtered candidates; eliminated sequences with potential cross-reactivity or toxicity.
+Status: Complete
+
+------------------------------------------------------------
+Phase 5: Immunological Profiling
+------------------------------------------------------------
+
+Date: 2026-07-05
+Tool: IEDB Analysis Resource
+Method: Comparative binding affinity analysis across common human HLA alleles; focused on "promiscuous" binding potential.
+Result: Identified high-affinity binders with high population coverage.
+Status: Complete.
+
+----------------------------------------------------------
+Phase 6: Structural Validation
+----------------------------------------------------------
+
+Date: 2026-07-05
+Tool: RCSB PDB (Mol* Viewer)
+Method: In-silico 3D epitope mapping onto the Lassa virus glycoprotein (PDB ID: 5VK2) to verify solvent-surface accessibility.
+Result: Confirmed that selected epitopes are structurally stable and exposed on the protein surface, suitable for immune recognition.
+Status: Complete
+
+---------------------------------------------------------
+Phase 7: Data Consolidation
+---------------------------------------------------------
+
+Date: 2026-07-05
+Tool: MS Excel
+Method: Integration of binding affinity, safety profiles, and structural validation scores into a unified master matrix.
+Result: Finalized Master List of vaccine candidates and curated "best-in-class" epitope set.
+Status: Complete.
+
+---------------------------------------------------------
+
+---------------------------------------------------------
